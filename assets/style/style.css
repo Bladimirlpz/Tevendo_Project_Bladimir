@@ -1,0 +1,106 @@
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /* Hero Section */
+  
+  /* #Hero-Section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: left; */
+    /* object-fit: cover;
+    margin-top: 100px; */
+    /* background-image: url(../img/imagen\ header.png); */
+    /* height: 600PX; */ 
+    
+  
+  
+  /* Mis trabajos */
+  
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    width: auto;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  /* Modificaciones para desafio 5 git and github */
+  /* Modificaciones Nav bar */
+  
+  nav a img{
+    width: 220px;
+  }
+  nav li {
+    color: #75c7fb;
+    font-size: large;
+  }
+  /* modificaciones Hero section */
+  #Hero-Section {
+    color:#75c7fb ;
+    
+    
+  }
+  
+  header{
+    display: flex;
+    padding-top: 100px;
+    padding-left: auto;
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  
+  }
+  
+  header .imagen-ecom img{
+    /* height: 400px;
+    width: 700px; */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  header .logo-header{
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  header .logo-header img{
+    height: 135px;
+  }
+  
+  header .botones{
+    justify-content: center;
+    padding-left: 50px;
+  }
+  
+  
+  /* modificaciones seccion Clientes */
+  #clientes .row img{
+    
+    height: 70px;
+    width: 130px;
+    margin: 5px;
+  }
+  /* modificaciones seccion Mis-trabajos */
+  
